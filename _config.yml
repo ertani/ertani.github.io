@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Erasmo Tani / Erasmo Tani"
+title                    : "Erasmo Tani"
 title_separator          : "-"
 name                     : &name "Erasmo Tani"
 description              : &description "personal description"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Erasmo"
   avatar           : "profile.png"
-  bio              : "Always learning algorithms that are always learning"
+  bio              : "Algorithm Person"
   location         : "Chicago, IL"
   employer         :
   pubmed           :
