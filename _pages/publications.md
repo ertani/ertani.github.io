@@ -5,12 +5,11 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+**Submodular Hypergraph Partitioning: Metric Relaxations and Fast Algorithms via an Improved Cut-Matching Game** [[Preprint]](https://arxiv.org/abs/2301.08920)<br>
+with A. Chen and L. Orecchia
 
-{% include base_path %}
+**Hypergraph Diffusions and Resolvents for Norm-Based Hypergraph Laplacians** [[Preprint]](https://arxiv.org/abs/2307.11042)<br>
+with K. Ameranis, A. Chen, A. DePavia and L. Orecchia
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+**Error-Tolerant Exact Query Learning of Finite Set Partitions with Same-Cluster Oracle** [[Preprint]](https://arxiv.org/abs/2305.13402) <br>
+with A. DePavia and O. Medrano Martín del Campo
