@@ -5,6 +5,10 @@ permalink: /publications/
 author_profile: true
 ---
 
+**Learning-Based Algorithms for Graph Searching Problems** [[AISTATS 2024]](http://aistats.org/aistats2024/) (To Appear)<br>
+with A. DePavia and A. Vakilian
+
+
 **Submodular Hypergraph Partitioning: Metric Relaxations and Fast Algorithms via an Improved Cut-Matching Game** [[Preprint]](https://arxiv.org/abs/2301.08920)<br>
 with A. Chen and L. Orecchia
 
