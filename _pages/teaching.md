@@ -6,11 +6,13 @@ author_profile: true
 ---
 
 ## Current Teaching Activities
-
-**MPCS 53112 : Advanced Data Analytics | Teaching Assistant** (Fall 2023)<br>
+**CS-27200 : Theory of Algorithms | Teaching Assistant** (Winter 2024)<br>
  at the University of Chicago<br>
 
+
 ## Past Teaching Experience
+**MPCS 53112 : Advanced Data Analytics | Teaching Assistant** (Fall 2023)<br>
+ at the University of Chicago<br>
 
 **TTIC 31100/CMSC 39010-1 : Computational and Metric Geometry | Teaching Assistant** (Spring 2023)<br>
  at the Toyota Technological Institute at Chicago<br>
