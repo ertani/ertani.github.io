@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-**Learning-Based Algorithms for Graph Searching Problems [AISTATS 2024]** [[Preprint]](http://aistats.org/aistats2024/) (To Appear)<br>
+**Learning-Based Algorithms for Graph Searching Problems [AISTATS 2024]** [[Preprint]](http://aistats.org/aistats2024/)<br>
 with A. DePavia and A. Vakilian
 
 
