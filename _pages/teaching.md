@@ -5,10 +5,13 @@ permalink: /teaching/
 author_profile: true
 ---
 
-## Current Teaching Activities
-**CS-27200 : Theory of Algorithms | Teaching Assistant** (Winter 2024)<br>
+
+## Currently Teaching
+**CS-27200 : Theory of Algorithms | Teaching Assistant** (Spring 2024)<br>
  at the University of Chicago<br>
 
+## College Teaching Certificate
+I am proud to have been awarded the [College Teaching Certificate](https://teaching.uchicago.edu/programs/college-teaching-certificate-program) from the Chicago Center for Teaching and Learning.
 
 ## Past Teaching Experience
 **MPCS 53112 : Advanced Data Analytics | Teaching Assistant** (Fall 2023)<br>
@@ -17,7 +20,7 @@ author_profile: true
 **TTIC 31100/CMSC 39010-1 : Computational and Metric Geometry | Teaching Assistant** (Spring 2023)<br>
  at the Toyota Technological Institute at Chicago<br>
 
-**CS-27200 : Theory of Algorithms | Teaching Assistant** (Winter 2020, Winter 2021, Spring 2022)<br>
+**CS-27200 : Theory of Algorithms | Teaching Assistant** (Winter 2020, Winter 2021, Spring 2022, Winter 2024)<br>
  at the University of Chicago<br>
 
 **CS237 : Probability in Computing | Teaching Fellow** (Spring 2019, Summer 2019)<br>
