@@ -13,7 +13,7 @@ with [Y. Makarychev](https://home.ttic.edu/~yury) and [M. Ovsiankin](https://max
 
 **[AISTATS 2024] Learning-Based Algorithms for Graph Searching Problems** [[Preprint]](https://arxiv.org/abs/2402.17736)<br>
 with A. DePavia and [A. Vakilian](https://www.mit.edu/~vakilian)<br>
-🥇 **Selected for Student Highlight Award**
+🥇 **Selected for Student Paper Highlight Award**
 
 
 **Submodular Hypergraph Partitioning: Metric Relaxations and Fast Algorithms via an Improved Cut-Matching Game** [[Preprint]](https://arxiv.org/abs/2301.08920)<br>
