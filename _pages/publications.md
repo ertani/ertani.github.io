@@ -5,6 +5,10 @@ permalink: /publications/
 author_profile: true
 ---
 
+**Fast Algorithms for Hypergraph PageRank with Applications to Semi-Supervised Learning**<br>
+with  [K. Ameranis](https://people.cs.uchicago.edu/~kameranis/), [A. DePavia](https://cam.uchicago.edu/people/profile/adela-depavia/) and [L. Orecchia](https://orecchia.net)<br>
+**ICML 2024**
+
 **Approximation Algorithms for $\ell_p$-Shortest Path and $\ell_p$-Group Steiner Tree** [[Preprint]](http://arxiv.org/abs/2404.17669)<br> 
 with [Y. Makarychev](https://home.ttic.edu/~yury) and [M. Ovsiankin](https://maxov.org)<br>
 **ICALP 2024**
@@ -18,7 +22,7 @@ with [A. DePavia](https://cam.uchicago.edu/people/profile/adela-depavia/) and [A
 with A. Chen and [L. Orecchia](https://orecchia.net)
 
 **Hypergraph Diffusions and Resolvents for Norm-Based Hypergraph Laplacians** [[Preprint]](https://arxiv.org/abs/2307.11042)<br>
-with K. Ameranis, A. Chen, [A. DePavia](https://cam.uchicago.edu/people/profile/adela-depavia/) and [L. Orecchia](https://orecchia.net/)
+with [K. Ameranis](https://people.cs.uchicago.edu/~kameranis/), A. Chen, [A. DePavia](https://cam.uchicago.edu/people/profile/adela-depavia/) and [L. Orecchia](https://orecchia.net/)
 
 **Error-Tolerant Exact Query Learning of Finite Set Partitions with Same-Cluster Oracle** [[Preprint]](https://arxiv.org/abs/2305.13402) <br>
 with [A. DePavia](https://cam.uchicago.edu/people/profile/adela-depavia/) and O. Medrano Martín del Campo
