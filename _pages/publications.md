@@ -23,4 +23,4 @@ with K. Ameranis, A. Chen, [A. DePavia](https://cam.uchicago.edu/people/profile/
 **Error-Tolerant Exact Query Learning of Finite Set Partitions with Same-Cluster Oracle** [[Preprint]](https://arxiv.org/abs/2305.13402) <br>
 with [A. DePavia](https://cam.uchicago.edu/people/profile/adela-depavia/) and O. Medrano Martín del Campo
 
-**Note:** As it is customary, authors in theoretical computer science papers appear in alphabetical order.
+**Note:** As is customary, authors in theoretical computer science papers appear in alphabetical order.
