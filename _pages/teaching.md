@@ -9,7 +9,7 @@ author_profile: true
 ## College Teaching Certificate
 I am proud to have been awarded the [College Teaching Certificate](https://teaching.uchicago.edu/programs/college-teaching-certificate-program) from the Chicago Center for Teaching and Learning.
 
-## Past Teaching Experience
+## Teaching Experience
 **CS-27200 : Theory of Algorithms | Teaching Assistant** (Winter 2020, Winter 2021, Spring 2022, Winter 2024, Spring 2024)<br>
  at the University of Chicago<br>
 
