@@ -8,8 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD candidate in the department of Computer Science at the [University of Chicago](https://www.uchicago.edu/), working on designing algorithms for problems arising in Data Science. I am interested in several aspects of Mathematical Computer Science and Theoretical Machine Learning.
+I am a Computer Scientist and Mathematician working on algorithmic challenges arising in Data Science. I obtained my PhD from the [University of Chicago](https://www.uchicago.edu/). I am interested in several aspects of Mathematical Computer Science and Theoretical Machine Learning.
 
-I am lucky to be mentored by [Yury Makarychev](https://home.ttic.edu/~yury/), [Lorenzo Orecchia](https://www.orecchia.net), and [Ali Vakilian](http://www.mit.edu/~vakilian/).
+<!--I am a PhD candidate in the department of Computer Science at the [University of Chicago](https://www.uchicago.edu/), working on designing algorithms for problems arising in Data Science. I am interested in several aspects of Mathematical Computer Science and Theoretical Machine Learning.-->
 
-Prior to joining the University of Chicago I completed a Master of Science degree in Computer Science at [Boston University](https://www.bu.edu) and a Master of Engineering degree in Mathematics and Computer Science at the [University of Bristol](https://www.bristol.ac.uk/) in the UK.
+<!--I am lucky to be mentored by [Yury Makarychev](https://home.ttic.edu/~yury/), [Lorenzo Orecchia](https://www.orecchia.net), and [Ali Vakilian](http://www.mit.edu/~vakilian/).-->
+<!--
+
+-->
