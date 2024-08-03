@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Computer Scientist and Mathematician working on algorithmic challenges arising in Data Science. I obtained my PhD from the [University of Chicago](https://www.uchicago.edu/). I am interested in several aspects of Mathematical Computer Science and Theoretical Machine Learning.
+I am a computer scientist and mathematician working on algorithmic challenges arising in Data Science. I obtained my PhD from the [University of Chicago](https://www.uchicago.edu/). I am interested in several aspects of Mathematical Computer Science and Theoretical Machine Learning.
 
 <!--I am a PhD candidate in the department of Computer Science at the [University of Chicago](https://www.uchicago.edu/), working on designing algorithms for problems arising in Data Science. I am interested in several aspects of Mathematical Computer Science and Theoretical Machine Learning.-->
 
