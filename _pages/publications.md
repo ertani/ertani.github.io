@@ -5,6 +5,8 @@ permalink: /publications/
 author_profile: true
 ---
 
+**Note:** As is customary, authors in theoretical computer science papers appear in alphabetical order.
+
 **Fast Algorithms for Hypergraph PageRank with Applications to Semi-Supervised Learning**<br>
 with  [K. Ameranis](https://people.cs.uchicago.edu/~kameranis/), [A. DePavia](https://cam.uchicago.edu/people/profile/adela-depavia/) and [L. Orecchia](https://orecchia.net)<br>
 **ICML 2024**
@@ -27,4 +29,3 @@ with [K. Ameranis](https://people.cs.uchicago.edu/~kameranis/), A. Chen, [A. DeP
 **Error-Tolerant Exact Query Learning of Finite Set Partitions with Same-Cluster Oracle** [[Preprint]](https://arxiv.org/abs/2305.13402) <br>
 with [A. DePavia](https://cam.uchicago.edu/people/profile/adela-depavia/) and O. Medrano Martín del Campo
 
-**Note:** As is customary, authors in theoretical computer science papers appear in alphabetical order.
