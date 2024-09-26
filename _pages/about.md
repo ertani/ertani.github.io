@@ -8,7 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a computer scientist and mathematician working on solving algorithmic challenges arising in data science. I obtained my PhD in computer science from the [University of Chicago](https://www.uchicago.edu/). I am interested in several aspects of mathematical computer science and theoretical machine learning.
+I am a computer scientist and mathematician working on solving algorithmic challenges arising in data science. I am interested in several aspects of mathematical computer science and theoretical machine learning.
+
+This fall I am a research intern at TTIC working with [Yury Makarychev](https://home.ttic.edu/~yury/). I obtained my PhD in computer science from the [University of Chicago](https://www.uchicago.edu/). 
 
 Interested in my work? Check out my Publications page above.
 
