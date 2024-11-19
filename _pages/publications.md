@@ -7,7 +7,7 @@ author_profile: true
 
 **Note:** As is customary, authors in theoretical computer science papers appear in alphabetical order.
 
-**Optimal Algorithms for Learning Partitions with Faulty Oracles** (To Appear)<br>
+**Optimal Algorithms for Learning Partitions with Faulty Oracles** [[Link]](https://openreview.net/attachment?id=ygDl8q02gA&name=pdf)<br>
 with [A. DePavia](https://cam.uchicago.edu/people/profile/adela-depavia/) and O. Medrano Martín del Campo<br>
 **NeurIPS 2024**
 
