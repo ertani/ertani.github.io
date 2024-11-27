@@ -8,7 +8,7 @@ author_profile: true
 **Note:** As is customary, authors in theoretical computer science papers appear in alphabetical order.
 
 **Optimal Algorithms for Learning Partitions with Faulty Oracles** [[Link]](https://openreview.net/attachment?id=ygDl8q02gA&name=pdf)<br>
-with [A. DePavia](https://cam.uchicago.edu/people/profile/adela-depavia/) and O. Medrano Martín del Campo<br>
+with [A. DePavia](https://cam.uchicago.edu/people/profile/adela-depavia/) and [O. Medrano Martín del Campo](https://mathematics.uchicago.edu/people/profile/olga-medrano-martin-del-campo/)<br>
 **NeurIPS 2024**
 
 **Fast Algorithms for Hypergraph PageRank with Applications to Semi-Supervised Learning** [[Link]](https://openreview.net/pdf?id=sfQH4JJ4We)<br>
