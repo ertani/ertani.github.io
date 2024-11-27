@@ -23,7 +23,7 @@ with [Y. Makarychev](https://home.ttic.edu/~yury) and [M. Ovsiankin](https://max
 with [A. DePavia](https://cam.uchicago.edu/people/profile/adela-depavia/) and [A. Vakilian](https://www.mit.edu/~vakilian)<br>
 **AISTATS 2024** 🥇 **Selected for [Student Paper Highlight Award](https://virtual.aistats.org/virtual/2024/awards_detail)**<br>
 
-# Publications
+# Preprints
 
 **Submodular Hypergraph Partitioning: Metric Relaxations and Fast Algorithms via an Improved Cut-Matching Game** [[Paper](https://arxiv.org/abs/2301.08920)]<br>
 with A. Chen and [L. Orecchia](https://orecchia.net)
