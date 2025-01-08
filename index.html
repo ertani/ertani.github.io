@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/83f9f127c9.js" crossorigin="anonymous"></script>
+    <style media="screen">
+      .list-unstyled {
+        & > a, a:visited, a:hover, a:active {
+          color: inherit;
+        }
+      }
+      .venue {
+        font-weight:bold;
+      }
+      .paper-title {
+        font-weight:bold;
+        font-size:1.1em;
+      }
+      .paper-link {
+        font-size:1.1em;
+      }
+      .navbar {
+        border-bottom-style:solid;
+        border-bottom-width:1px;
+        border-color: #C4C4C4;
+      }
+      .class-name {
+        font-weight:bold;
+      }
+      @media (width < 838px) {
+        #business-card {
+          text-align:center;
+          padding-right:0px;
+        }
+        #image-div {
+          padding-bottom:0px;
+          margin-bottom:0px;
+        }
+      }
+      @media (width >= 838px) {
+        #business-card {
+          padding-right:6em;
+          padding-bottom:3em;
+        }
+        #image-div {
+          padding-bottom:3em;
+          margin:3em
+        }
+      }
+    </style>
+
+
+    <script type="text/javascript">
+      reviews = [{source:"End of the quarter anonymous feedback | CS-27200: Theory of Algorithms (The University of Chicago, Spring 2024)",quotes:["You should absolutely go to discussion with Erasmo, he explains things in a very clear way and honestly I learned more from the discussion than from some lectures.", "There are so many amazing TA's for this class, they basically hold up the entire thing! I would not have passed without Erasmo or [another TA ...].","I don't think I could sing Erasmo's praises enough [...]. Our discussion sections with Erasmo were very engaging; he made it a point to make connections with each of us as students, which only served to make the learning process easier.","Erasmo Tani. He was just a great TA in general who knows how to help students better understand the material and work through their problems. I really commend him for his patience and ability to really get students to learn in the interactions with him.", "ERASMO: you're awesome","Erasmo Tani was an amazing TA who re–explained lecture concepts well, clearly demonstrated relevant mathematical techniques, facilitated problem solving as a group, and was a positive and encouraging presence that greatly enhanced in my experience in this course.","Erasmo is so nice. He is very patient in explaining homework and complex concepts to us. I think he is one of the best TA in our university!", "[Another TA] and Erasmo — they were great!!! The best TAs I’ve had at the school","Erasmo Tani. He answers our questions very patiently at discussions and he inspired us a lot."]},
+      {source:"End of the quarter anonymous feedback | CS-27200: Theory of Algorithms (The University of Chicago, Winter 2024)", quotes:["Erasmo Tani was very helpful during office hours and discussion sections. He is very charismatic, patient, and explains things clearly.","Erasmo was super clear and knowledgeable","Erasmo was really great at clarifying confusing concepts in his discussion sections. Most of the discussions were student–initiated, so the group would review these concepts first before moving on to assigned problems for the week.","Erasmo and [Another TA] were amazing!! Super helpful during office hours [...]. They really wanted to make sure we understood the content [...]","Erasmo was a fantastic TA, honestly very likely the best TA I've had in the 3 years I've been here. Genuinely knowledgeable and cared about/got to know his students","[Another TA] and Erasmo are super helpful. They are really nice and patient, and they were very clear in their explanations.","Erasmo was personable and helpful in office hours and discussion sections. His discussion sections helped enforce key concepts from class, and utilized heavy math terminology in algorithm solutions which was good practice for the PSETs. [...]","Erasmo Tani: Amazing. Nothing more needs to be said."]},
+      {source:"End of the quarter anonymous feedback | TTIC 31100 1: Computational and Metric Geometry (TTIC - Spring 2023)",
+      quotes:["Erasmo was quite good at providing hints that wouldn't give away the answer to the problem, but would put you on the right track.",
+      "[Erasmo g]raded psets in a timely manner and gave great feedback. Was often available after class, and very responsive via email.",
+      "Erasmo Tani. Wonderful TA, helpful and friendly, provided detailed and helpful comments on HW."]
+      },
+      {source:"End of the quarter anonymous feedback | CS-27200: Theory of Algorithms (The University of Chicago, Winter 2021)",
+      quotes:["[Another TA and] Erasmo Tani were both super super helpful and nice––so patient and encouraging",
+      "Erasmo Tani was very helpful both in lecture and office hours. He offered clear and open–ended hints and remedial advice on the material that cleared up confusion on more complex topics and approaches",
+      "Erasmo Tani. Erasmo was really responsive over Ed. He was also in my synchronous lectures a fair number of times, and I think he offered helpful input when we were solving problems in the breakout rooms.",
+      "Erasmo Tani – really helpful in reintroducing ideas during office hours, being patient when there's a large understanding gap between me and the material."]},
+      {source:"End of semester anonymous feedback | CS237: Probability in Computing (Boston University, Spring 2019)",
+      quotes:["[Erasmo] is very friendly and approachable. He really knows the content and knows how to explain it well.",
+      "[Erasmo] Does a good job explaining material and its applications.",
+      "Erasmo was excellent at explaining concepts and helping me understand things that confused me during lecture. His office hours were also extremely useful. Overall, Erasmo is a great person and a great TA.",
+      "Erasmo explains concepts very well. His style of teaching is very much the kind I prefer; it is clear and concise and doesn't take unnecessary tangents to get to the point. I appreciate how when he goes over problems, he reviews some of the key concepts for understanding how to solve the problem first and then gradually develops his explanation. It is sequential and easy to follow.",
+      "Erasmo explained concepts well and was always willing to help explain things more. He always had a friendly, positive demeanor and treated our questions as valid learning opportunities.",
+      "Erasmo's explanations are so, so clear -- he breaks everything down and always provides examples. He takes the time to walk through problems appropriately and makes sure that all questions are answered thoroughly. Also makes great review videos.",
+      "Always willing to explain concepts, no matter how much time it takes.",
+      "Erasmo labs is one of the few ways I learn the material from this course. Without him I don't believe I would have been able to succeed in the course.",
+      "Erasmo is really patient and easy-going. I really enjoyed working with him in lab and office hours. When I ask questions, I don't feel any pressure.",
+      "[Erasmo] genuinely cares about everyone's success and it shows.",
+      "Erasmo Tani was very eager to explain concepts when I and other students were confused about a concept taught in class. His explanation was not only abundant, but also it was logical. He would give variety of intuitions on a hard concept to help students comprehend the material.",
+      "Loved this class because of Erasmo <3"]}
+      ]
+
+
+
+      function changeQuote() {
+        console.log("here")
+        var theClass = reviews[Math.floor(Math.random()*reviews.length)];
+        console.log("review.quotes");
+        console.log(theClass.quotes);
+        var quote_index = Math.random()*theClass.quotes.length;
+        console.log("quote_index:",quote_index)
+        var quote = theClass.quotes[Math.floor(quote_index)];
+        var source = theClass.source;
+        console.log("quote:",quote)
+        document.getElementById("quote-text").textContent=quote;
+        document.getElementById("quote-class-name").textContent=theClass.source;
+      }
+      window.onload = changeQuote;
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <title>Erasmo Tani</title>
+
+    <!-- Bootstrap CSS via CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- <script src="navbar.js"></script> -->
+</head>
+<body>
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+  <a class="navbar-brand mx-4" href="">Erasmo Tani</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Research">Research</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Teaching">Teaching</a>
+      </li>
+    </ul>
+  </div>
+  </nav>
+  <div id="navbar-placeholder"></div>
+
+  <!-- First Slide -->
+  <div class="m-1 align-middle" style="height:100vh">
+    <div style="margin:auto; height:100%; display:flex;justify-content:center;flex-wrap:wrap; align-items:center">
+      <div style="" id="image-div">
+        <img class="img-sm img-thumbnail rounded-circle align-middle" style="max-width:20em; height: auto;vertical-align: middle;" src="profile.jpg" alt="The picture of a young Italian mathematician.">
+      </div>
+      <div id="business-card" class="align-middle" style="">
+        <h1 class="display-1">Erasmo Tani</h1>
+        <p class="fs-4"> Computer Scientist</p>
+        <p class="fs-4"> Mathematician</p>
+        <p>
+          <ul class="list-unstyled">
+            <a href="https://scholar.google.com/citations?user=OGo-pZUAAAAJ" target="_blank">
+            <li style="display: inline;padding:5px;"><i class="fa-brands fa-google-scholar fa-2xl"></i></li></a>
+            <a href="https://www.linkedin.com/in/erasmo-tani-716804124" target="_blank">
+            <li style="display: inline;padding:5px;"><i class="fa-brands fa-linkedin fa-2xl"></i></li></a>
+            <a href="https://x.com/Erasmo_Tani" target="_blank">
+            <li style="display: inline;padding:5px;"><i class="fa-brands fa-x-twitter fa-2xl"></i></li></a>
+          </ul>
+      </div>
+  </div>
+
+  <div style="max-width:1000px; align:center; margin:auto">
+    <!-- About Slide -->
+    <div class="container-sm fs-5" id="about-tab" style="padding-bottom:3em">
+      <h1 class="display-3" style="text-align:right" id="about">About</h1>
+          <p class="text m-2" style="padding-top:1em">I am a computer scientist and mathematician working on solving algorithmic challenges arising in data science. I am interested in several aspects of mathematical computer science and theoretical machine learning.</p>
+
+          <p class="text m-2">I am currently a postdoc at Sapienza University of Rome hosted by <a href="https://sites.google.com/a/di.uniroma1.it/panco/">Alessandro Panconesi</a>. Previously, I obtained my PhD in computer science from the University of Chicago and was briefly a visitor at the Toyota Technological Institute at Chicago.</p>
+
+          <p class="text m-2"> Interested in my work? Check out my publications below.<p>
+
+    </div>
+
+
+    <!-- Research Slide -->
+    <div class="container-sm align" id="research-tab">
+      <h1 class="display-3 " id="Research" style="text-align:right;">Research</h1>
+
+
+      <h1 class="display-6">Publications </h1>
+      <div class="container paper my-3">
+      <span class="paper-title"> Optimal Algorithms for Learning Partitions with Faulty Oracles </span> [<a class="paper-link" href="https://openreview.net/attachment?id=ygDl8q02gA&name=pdf" target="_blank">Paper</a>]
+      <div class="author-block">with <a href="https://cam.uchicago.edu/people/profile/adela-depavia/">A. DePavia</a> and <a href="https://mathematics.uchicago.edu/people/profile/olga-medrano-martin-del-campo/">O. Medrano Martín del Campo</a>
+      </div>
+      <div class="venue">NeurIPS 2024</div>
+      </div>
+
+      <div class="container paper my-3">
+      <span class="paper-title">Fast Algorithms for Hypergraph PageRank with Applications to Semi-Supervised Learning</span> [<a class="paper-link" href="https://openreview.net/pdf?id=sfQH4JJ4We" target="_blank">Paper</a>]
+      <div class="author-block">with <a href="https://people.cs.uchicago.edu/~kameranis/">K. Ameranis</a>, <a href="https://cam.uchicago.edu/people/profile/adela-depavia/">A. DePavia</a> and <a href="https://orecchia.net">L. Orecchia</a>
+      </div>
+      <div class="venue">ICML 2024</div>
+      </div>
+
+      <div class="container paper my-3">
+      <span class="paper-title">Approximation Algorithms for \(\ell_p\)-Shortest Path and \(\ell_p\)-Group Steiner Tree</span> [<a class="paper-link" href="https://arxiv.org/abs/2404.17669" target="_blank">Paper</a>]
+      <div class="author-block">with <a href="https://home.ttic.edu/~yury">Y. Makarychev</a> and <a href="https://maxov.org">M. Ovsiankin</a>
+      </div>
+      <div class="venue">ICALP 2024</div>
+      </div>
+      <div class="container paper my-3">
+      <span class="paper-title">Learning-Based Algorithms for Graph Searching Problems</span> [<a class="paper-link" href="https://arxiv.org/abs/2402.17736" target="_blank">Paper</a>]
+      <div class="author-block">with <a href="https://cam.uchicago.edu/people/profile/adela-depavia/">A. DePavia</a> and <a href="https://mathematics.uchicago.edu/people/profile/olga-medrano-martin-del-campo/">O. Medrano Martín del Campo</a>
+      </div>
+      <div class="venue">AISTATS 2024 <span style="font-weight:normal">🥇 Selected for <a href="https://virtual.aistats.org/virtual/2024/awards_detail">Student Paper Highlight Award</a></span></div>
+      </div>
+
+      <h1 class="display-6"> Preprints </h1>
+      <div class="container paper my-3">
+        <span class="paper-title" target="_blank">Submodular Hypergraph Partitioning: Metric Relaxations and Fast Algorithms via an Improved Cut-Matching Game</span> [<a class="paper-link" href="https://arxiv.org/abs/2301.08920">Paper</a>]
+        <div class="author-block">with A. Chen and <a href="https://orecchia.net">L. Orecchia</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container-sm align" id="teaching-tab">
+      <h1 class="display-3 " id="Teaching" style="text-align:right;">Teaching</h1>
+        <p style="padding-top:1em;">I have recently been awarded the <a href="https://teaching.uchicago.edu/programs/college-teaching-certificate-program">College Teaching Certificate</a> from the Chicago Center for Teaching and Learning.</p>
+
+        <h1 class="display-6">Teaching Experience</h1>
+
+        <div class="class-taught container my-3"> <span class="class-name">CS-27200 : Theory of Algorithms</span> | <span class="class-role">Teaching Assistant</span> <span class="class-terms">(Winter 2020, Winter 2021, Spring 2022, Winter 2024, Spring 2024)</span><br>
+         at the <span class="class-institution">University of Chicago</span></div>
+        <div class="class-taught container my-3"> <span class="class-name">MPCS 53112 : Advanced Data Analytics</span> | <span class="class-role">Teaching Assistant</span> <span class="class-terms">(Fall 2023)</span><br>
+        at <span class="class-institution">the University of Chicago</span></div>
+        <div class="class-taught container my-3"> <span class="class-name">TTIC 31100/CMSC 39010-1 : Computational and Metric Geometry</span> | <span class="class-role">Teaching Assistant</span> <span class="class-terms">(Spring 2023)</span><br>
+        at the <span class="class-institution">Toyota Technological Institute at Chicago</span></div>
+        <div class="class-taught container my-3"> <span class="class-name">CS237 : Probability in Computing</span> | <span class="class-role">Teaching Fellow</span> <span class="class-terms">(Spring 2019, Summer 2019)</span><br>
+        at <span class="class-institution">Boston University</span></div>
+        <div class="class-taught container my-3"> <span class="class-name">CS591 E1 : Advanced Optimization Algorithms</span> | <span class="class-role">Teaching Assistant</span> <span class="class-terms">(Fall 2018)</span><br>
+        at <span class="class-institution">Boston University</span></div>
+        <div class="class-taught container my-3"> <span class="class-name">CS537 : Randomness in Computing</span> | <span class="class-role">Teaching Assistant</span> <span class="class-terms">(Spring 2018)</span><br>
+        at <span class="class-institution">Boston University</span></div>
+        <div class="class-taught container my-3"> <span class="class-name">COMS11700 : Theory of Computation</span> | <span class="class-role">Teaching Assistant</span> <span class="class-terms">(Spring 2016, Spring 2017)</span><br>
+        at the <span class="class-institution">University of Bristol</span></div>
+        <div class="class-taught container my-3"> <span class="class-name">MATH33300 : Group Theory 3</span> | <span class="class-role">Teaching Assistant</span> <span class="class-terms">(Fall 2016)</span><br>
+        at the <span class="class-institution">University of Bristol</span></div>
+        <div class="class-taught container my-3"> <span class="class-name">MATH20002 : Combinatorics 2</span> | <span class="class-role">Teaching Assistant</span> <span class="class-terms">(Spring 2016)</span><br>
+        at the <span class="class-institution">University of Bristol</span></div>
+        <div class="class-taught container my-3"> <span class="class-name">COMS10001 : Programming and Algorithms II</span> | <span class="class-role">Teaching Assistant</span> <span class="class-terms">(Spring 2015)</span><br>
+        at the <span class="class-institution">University of Bristol</span></div>
+        <div class="class-taught container my-3"> <span class="class-name">COMS10002 : Programming and Algorithms I</span> | <span class="class-role">Teaching Assistant</span> <span class="class-terms">(Fall 2014, Fall 2015)</span><br>
+        at the <span class="class-institution">University of Bristol</span></div>
+
+
+
+  <h1 class="display-6" style="margin-top:1em">Students Have Said About Me...</h1>
+
+
+  <div id="quotes-block" style="text-align:center;padding:3em;padding-top:0em;">
+    <blockquote class="blockquote text-center py-5" style="min-height:12em">
+      <p class="mb-4" id="quote-text"></p>
+      <footer class="blockquote-footer" id="quote-class-name"></footer>
+    </blockquote>
+
+
+    <button type="button" class="btn btn-primary" onClick="changeQuote()">Show me a random review</button>
+  </div>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
