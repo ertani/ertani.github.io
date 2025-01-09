@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/83f9f127c9.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <style media="screen">
       .list-unstyled {
         & > a, a:visited, a:hover, a:active {
@@ -49,8 +53,6 @@
         }
       }
     </style>
-
-
     <script type="text/javascript">
       reviews = [{source:"End of the quarter anonymous feedback | CS-27200: Theory of Algorithms (The University of Chicago, Spring 2024)",quotes:["You should absolutely go to discussion with Erasmo, he explains things in a very clear way and honestly I learned more from the discussion than from some lectures.", "There are so many amazing TA's for this class, they basically hold up the entire thing! I would not have passed without Erasmo or [another TA ...].","I don't think I could sing Erasmo's praises enough [...]. Our discussion sections with Erasmo were very engaging; he made it a point to make connections with each of us as students, which only served to make the learning process easier.","Erasmo Tani. He was just a great TA in general who knows how to help students better understand the material and work through their problems. I really commend him for his patience and ability to really get students to learn in the interactions with him.", "ERASMO: you're awesome","Erasmo Tani was an amazing TA who re–explained lecture concepts well, clearly demonstrated relevant mathematical techniques, facilitated problem solving as a group, and was a positive and encouraging presence that greatly enhanced in my experience in this course.","Erasmo is so nice. He is very patient in explaining homework and complex concepts to us. I think he is one of the best TA in our university!", "[Another TA] and Erasmo — they were great!!! The best TAs I’ve had at the school","Erasmo Tani. He answers our questions very patiently at discussions and he inspired us a lot."]},
       {source:"End of the quarter anonymous feedback | CS-27200: Theory of Algorithms (The University of Chicago, Winter 2024)", quotes:["Erasmo Tani was very helpful during office hours and discussion sections. He is very charismatic, patient, and explains things clearly.","Erasmo was super clear and knowledgeable","Erasmo was really great at clarifying confusing concepts in his discussion sections. Most of the discussions were student–initiated, so the group would review these concepts first before moving on to assigned problems for the week.","Erasmo and [Another TA] were amazing!! Super helpful during office hours [...]. They really wanted to make sure we understood the content [...]","Erasmo was a fantastic TA, honestly very likely the best TA I've had in the 3 years I've been here. Genuinely knowledgeable and cared about/got to know his students","[Another TA] and Erasmo are super helpful. They are really nice and patient, and they were very clear in their explanations.","Erasmo was personable and helpful in office hours and discussion sections. His discussion sections helped enforce key concepts from class, and utilized heavy math terminology in algorithm solutions which was good practice for the PSETs. [...]","Erasmo Tani: Amazing. Nothing more needs to be said."]},
@@ -98,17 +100,14 @@
     </script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <title>Erasmo Tani</title>
-
-    <!-- Bootstrap CSS via CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- <script src="navbar.js"></script> -->
 </head>
 <body>
-  <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand mx-4" href="">Erasmo Tani</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
+
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
@@ -124,7 +123,6 @@
   </div>
   </nav>
   <div id="navbar-placeholder"></div>
-
   <!-- First Slide -->
   <div class="m-1 align-middle" style="height:100vh">
     <div style="margin:auto; height:100%; display:flex;justify-content:center;flex-wrap:wrap; align-items:center">
@@ -153,12 +151,11 @@
       <h1 class="display-3" style="text-align:right" id="about">About</h1>
           <p class="text m-2" style="padding-top:1em">I am a computer scientist and mathematician working on solving algorithmic challenges arising in data science. I am interested in several aspects of mathematical computer science and theoretical machine learning.</p>
 
-          <p class="text m-2">I am currently a postdoc at Sapienza University of Rome hosted by <a href="https://sites.google.com/a/di.uniroma1.it/panco/">Alessandro Panconesi</a> and <a href="https://www.chierichetti.name/">Flavio Chierichetti</a>. Previously, I obtained my PhD in computer science from the University of Chicago and was briefly a visitor at the Toyota Technological Institute at Chicago.</p>
+          <p class="text m-2">I am currently a postdoc at Sapienza University of Rome hosted by <a href="https://sites.google.com/a/di.uniroma1.it/panco/">Alessandro Panconesi</a>. Previously, I obtained my PhD in computer science from the University of Chicago and was briefly a visitor at the Toyota Technological Institute at Chicago.</p>
 
           <p class="text m-2"> Interested in my work? Check out my publications below.<p>
 
     </div>
-
 
     <!-- Research Slide -->
     <div class="container-sm align" id="research-tab">
