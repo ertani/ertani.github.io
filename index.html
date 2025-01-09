@@ -84,10 +84,15 @@
 
 
       function changeQuote() {
+        console.log("here")
         var theClass = reviews[Math.floor(Math.random()*reviews.length)];
+        console.log("review.quotes");
+        console.log(theClass.quotes);
         var quote_index = Math.random()*theClass.quotes.length;
+        console.log("quote_index:",quote_index)
         var quote = theClass.quotes[Math.floor(quote_index)];
         var source = theClass.source;
+        console.log("quote:",quote)
         document.getElementById("quote-text").textContent=quote;
         document.getElementById("quote-class-name").textContent=theClass.source;
       }
@@ -135,7 +140,7 @@
             <a href="https://www.linkedin.com/in/erasmo-tani-716804124" target="_blank">
             <li style="display: inline;padding:5px;"><i class="fa-brands fa-linkedin fa-2xl"></i></li></a>
             <a href="https://x.com/Erasmo_Tani" target="_blank">
-            <li style="display: inline;padding:5px;"><i class="fa-brands fa-x-twitter fa-2xl"></i></li></a>
+            <li style="display: inline;padding:5px;"><i class="fa-brands fa-bluesky fa-2xl"></i></li></a>
           </ul>
       </div>
   </div>
