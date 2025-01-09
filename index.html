@@ -84,15 +84,10 @@
 
 
       function changeQuote() {
-        console.log("here")
         var theClass = reviews[Math.floor(Math.random()*reviews.length)];
-        console.log("review.quotes");
-        console.log(theClass.quotes);
         var quote_index = Math.random()*theClass.quotes.length;
-        console.log("quote_index:",quote_index)
         var quote = theClass.quotes[Math.floor(quote_index)];
         var source = theClass.source;
-        console.log("quote:",quote)
         document.getElementById("quote-text").textContent=quote;
         document.getElementById("quote-class-name").textContent=theClass.source;
       }
